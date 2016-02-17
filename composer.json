@@ -1,0 +1,24 @@
+{
+    "name": "elvisciotti/mockery-stub-chain-args",
+    "type": "library",
+    "description": "XXXX",
+    "keywords": ["php"],
+    "homepage": "https://github.com/elvisciotti/mockery-stub-chain-args",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Elvis Ciotti",
+            "email": "info@softwareengineeringsolutions.co.uk"
+        }
+    ],
+    "require": {
+         "php": ">=5.4",
+         "exeu/apai-io": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { 
+            "MockeryStub": "library"
+        }
+    }
+}
